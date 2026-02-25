@@ -83,42 +83,85 @@ export default function App() {
         </div>
       </nav>
 
-      {/* Hero Section - Text Based Sales Letter */}
-      <section className="pt-12 pb-16 px-6 bg-gradient-to-b from-rose-50/50 to-white">
+      {/* PAS Framework: PROBLEM (Hero) */}
+      <section className="pt-12 pb-12 px-6 bg-gradient-to-b from-rose-50/50 to-white">
         <div className="max-w-3xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-rose-100 text-rose-800 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-8">
             <AlertTriangle className="w-4 h-4" />
-            Waarschuwing: Controversiële Methode
+            Herkenbaar?
           </div>
           
           <h1 className="font-serif text-4xl md:text-6xl font-bold leading-tight mb-6 text-stone-900">
-            Stop met jagen. <br/>
-            <span className="text-rose-600">Laat hém zweten.</span>
+            Eerst appte hij non-stop.<br/>
+            <span className="text-rose-600">Nu is het stil.</span>
           </h1>
           
-          <p className="text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto mb-10 font-medium">
-            De exacte psychologische blauwdruk om onweerstaanbaar te worden. Zelfs als hij nu afstandelijk is.
+          <p className="text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto mb-8 font-medium">
+            Hij zegt dat hij "druk" is. Hij twijfelt. En jij? Jij voelt die knoop in je maag groeien.
           </p>
+        </div>
+      </section>
 
-          {/* Scannable Bullet Points instead of Video */}
-          <div className="bg-white p-6 md:p-8 rounded-2xl shadow-xl border border-stone-100 mb-10 text-left max-w-xl mx-auto">
-            <h3 className="font-bold text-lg mb-4 text-stone-900 border-b border-stone-100 pb-2">Herken je dit?</h3>
-            <ul className="space-y-3">
+      {/* PAS Framework: AGITATION */}
+      <section className="pb-16 px-6">
+        <div className="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-xl border border-stone-100">
+          <div className="prose prose-lg prose-stone mx-auto space-y-6">
+            <p className="font-bold text-lg">Lieve vriendin,</p>
+            
+            <p>Wees eens eerlijk. Hoe vaak heb je vandaag al op je telefoon gekeken?</p>
+            
+            <ul className="space-y-3 list-none pl-0">
               <li className="flex items-start gap-3">
-                <div className="mt-1 min-w-5 min-h-5 rounded-full bg-red-100 flex items-center justify-center text-red-600 text-xs font-bold">✕</div>
-                <span className="text-stone-700 font-medium">Hij reageert traag (of helemaal niet).</span>
+                <span className="text-2xl">📱</span>
+                <span>Je ziet hem "Online", maar hij opent je bericht niet.</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1 min-w-5 min-h-5 rounded-full bg-red-100 flex items-center justify-center text-red-600 text-xs font-bold">✕</div>
-                <span className="text-stone-700 font-medium">Jij initieert altijd het contact.</span>
+                <span className="text-2xl">💭</span>
+                <span>Je analyseert elk woord dat hij zegt (of juist niet zegt).</span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1 min-w-5 min-h-5 rounded-full bg-red-100 flex items-center justify-center text-red-600 text-xs font-bold">✕</div>
-                <span className="text-stone-700 font-medium">Hij zegt dat hij "niet klaar is voor een relatie".</span>
+                <span className="text-2xl">💔</span>
+                <span>Je bent bang dat je hem kwijtraakt als je niet <em>nu</em> iets doet.</span>
               </li>
             </ul>
-            <div className="mt-6 pt-4 border-t border-stone-100 text-center">
-              <p className="font-serif italic text-rose-600 text-lg">Het is tijd om de rollen om te draaien.</p>
+
+            <div className="bg-rose-50 border-l-4 border-rose-500 p-4 italic text-stone-800">
+              "Doe ik te veel mijn best? Is er iemand anders? Ben ik niet goed genoeg?"
+            </div>
+
+            <p>
+              Je probeert het te fixen. Je stuurt een lief berichtje. Je toont begrip. Je wacht.
+              <br/><br/>
+              <strong>Maar hoe meer jij naar hem toe beweegt, hoe harder hij wegrent.</strong>
+            </p>
+            
+            <p className="font-bold text-rose-600">Stop. Adem in. Het is niet jouw schuld.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* PAS Framework: SOLUTION */}
+      <section className="py-16 px-6 bg-stone-900 text-white">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-6">
+            Draai de rollen om met de <span className="text-rose-500">ObsessieCode</span>
+          </h2>
+          
+          <p className="text-lg text-stone-300 mb-10 leading-relaxed">
+            Je hebt geen nieuwe openingszin nodig. Je hebt een <strong>nieuwe dynamiek</strong> nodig.
+            <br/><br/>
+            De ObsessieCode leert je precies hoe je zijn biologische <strong>jagersinstinct</strong> weer AAN zet. 
+            Zodat hij niet meer wegrent, maar bang wordt om <em>jou</em> te verliezen.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6 text-left mb-12">
+            <div className="bg-white/10 p-6 rounded-xl border border-white/10">
+              <div className="font-bold text-rose-400 mb-2">❌ Oude Jij</div>
+              <p className="text-sm text-stone-400">Wacht op zijn berichtjes, twijfelt aan zichzelf, doet al het werk.</p>
+            </div>
+            <div className="bg-rose-600/20 p-6 rounded-xl border border-rose-500/50">
+              <div className="font-bold text-rose-400 mb-2">✅ ObsessieCode Jij</div>
+              <p className="text-sm text-stone-200">Is de prijs, straalt rust uit, laat hém moeite doen.</p>
             </div>
           </div>
 
@@ -127,135 +170,12 @@ export default function App() {
               href={PAYMENT_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full max-w-md bg-rose-600 text-white px-8 py-4 rounded-xl text-xl font-bold hover:bg-rose-700 transition-all shadow-lg hover:scale-[1.02] flex items-center justify-center gap-2"
+              className="w-full max-w-md bg-rose-600 text-white px-8 py-5 rounded-xl text-xl font-bold hover:bg-rose-700 transition-all shadow-[0_0_30px_-5px_rgba(225,29,72,0.6)] flex items-center justify-center gap-2 animate-pulse"
             >
-              Download de ObsessieCode
-              <ArrowRight className="w-5 h-5" />
+              Ja, ik wil de controle terug
+              <ArrowRight className="w-6 h-6" />
             </a>
-            <div className="flex items-center gap-2 text-xs text-stone-400 font-medium uppercase tracking-wide">
-              <ShieldCheck className="w-4 h-4 text-green-500" />
-              <span>Niet goed? Geld terug.</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Social Proof Strip */}
-      <div className="bg-stone-50 border-y border-stone-100 py-8 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-6">
-          <p className="text-center text-stone-400 text-xs font-bold uppercase tracking-widest mb-6">Al 2.500+ vrouwen gingen je voor</p>
-          <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-             {/* Trust Badges / Logos Placeholder */}
-             {["Cosmopolitan", "Vogue", "Elle", "Glamour"].map((brand) => (
-               <span key={brand} className="font-serif text-2xl font-bold text-stone-800">{brand}</span>
-             ))}
-          </div>
-        </div>
-      </div>
-
-      {/* The "Pain" Section - Direct Response Copy */}
-      <section className="py-16 px-6">
-        <div className="max-w-2xl mx-auto">
-          <h2 className="font-serif text-3xl font-bold mb-8 text-center">
-            Waarom negeert hij je?
-          </h2>
-          
-          <div className="prose prose-lg prose-stone mx-auto space-y-6">
-            <p className="font-bold">Lieve vriendin,</p>
-            
-            <p>Het is frustrerend.</p>
-            
-            <p>Jullie hadden een geweldige connectie. De chemie was er. En toen... <strong>stilte.</strong></p>
-            
-            <ul className="list-none pl-0 space-y-2">
-              <li>❌ Hij appt minder.</li>
-              <li>❌ Hij is "druk".</li>
-              <li>❌ Hij twijfelt.</li>
-            </ul>
-
-            <p>Je vraagt je af: <em>"Wat heb ik verkeerd gedaan?"</em></p>
-            
-            <div className="bg-rose-50 border-l-4 border-rose-500 p-4 font-medium text-stone-800">
-              Het antwoord: Je hebt zijn <strong>jagersinstinct</strong> uitgezet.
-            </div>
-
-            <p>Mannen willen jagen. Als jij te makkelijk bent, verliest hij interesse. Niet omdat hij je niet leuk vindt. Maar omdat de <strong>uitdaging</strong> weg is.</p>
-            
-            <p className="font-bold">Maar wat als je dit kon omdraaien?</p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Solution - Benefits Stack */}
-      <section className="py-20 bg-stone-900 text-white px-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6">Ontdek de <span className="text-rose-500">ObsessieCode</span></h2>
-            <p className="text-stone-400 text-lg max-w-2xl mx-auto">
-              Dit is geen dating advies. Dit is psychologische oorlogsvoering (maar dan liefdevol).
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="space-y-8">
-              {[
-                {
-                  title: "Het 'Mona Lisa' Effect",
-                  desc: "Hoe je mysterieus blijft zodat hij constant aan je moet denken (zelfs als hij met zijn vrienden is)."
-                },
-                {
-                  title: "De 'Pull-Back' Techniek",
-                  desc: "Wat je precies moet doen als hij afstand neemt, waardoor hij in paniek raakt en je direct terug wil."
-                },
-                {
-                  title: "Tekstberichten die Verslaven",
-                  desc: "3 specifieke appjes die zijn dopamine-receptoren triggeren. Hij zal verslaafd raken aan jouw naam op zijn scherm."
-                },
-                {
-                  title: "Van 'Scharrel' naar 'Soulmate'",
-                  desc: "De exacte blauwdruk om hem te laten smeken om een relatie, zonder dat jij er ooit over hoeft te beginnen."
-                }
-              ].map((item, i) => (
-                <div key={i} className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-rose-600 flex items-center justify-center shrink-0 font-bold text-white shadow-lg shadow-rose-900/50">
-                    {i + 1}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-xl mb-2 text-rose-100">{item.title}</h3>
-                    <p className="text-stone-400 leading-relaxed">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-            <div className="bg-white/5 border border-white/10 rounded-2xl p-8 relative overflow-hidden">
-              <div className="absolute top-0 right-0 bg-rose-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                BESTSELLER
-              </div>
-              <div className="flex flex-col h-full justify-center items-center text-center">
-                <BookOpen className="w-24 h-24 text-rose-500 mb-6 opacity-80" />
-                <h3 className="font-serif text-3xl mb-2">Het E-book</h3>
-                <p className="text-stone-400 mb-8">Directe download (PDF)</p>
-                <div className="w-full bg-stone-800 rounded-lg p-4 mb-6">
-                  <div className="flex justify-between items-center mb-2 text-sm text-stone-400">
-                    <span>Normale prijs</span>
-                    <span className="line-through">€47.00</span>
-                  </div>
-                  <div className="flex justify-between items-center text-xl font-bold text-white">
-                    <span>Vandaag</span>
-                    <span className="text-rose-400">€27.00</span>
-                  </div>
-                </div>
-                <a
-                  href={PAYMENT_LINK}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full bg-rose-600 text-white py-4 rounded-lg font-bold hover:bg-rose-500 transition-colors shadow-lg shadow-rose-900/50"
-                >
-                  Direct Toegang Krijgen
-                </a>
-              </div>
-            </div>
+            <p className="text-xs text-stone-500 uppercase tracking-widest font-bold">Direct toegang • PDF Download</p>
           </div>
         </div>
       </section>
@@ -344,8 +264,8 @@ export default function App() {
              <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-rose-400 via-rose-600 to-rose-400"></div>
              
              <div className="mb-8">
-               <span className="text-stone-500 text-lg line-through mr-4">€47.00</span>
-               <span className="text-5xl font-bold text-rose-600">€27.00</span>
+               <span className="text-stone-500 text-lg line-through mr-4">€97.00</span>
+               <span className="text-5xl font-bold text-rose-600">€57.00</span>
              </div>
 
              <ul className="text-left space-y-4 mb-10 max-w-xs mx-auto">
